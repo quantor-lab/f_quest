@@ -23,7 +23,7 @@ export default {
       const response = await this.makeRequest(
         'https://api.quantor.me/v1/eth/contract/erc20/prices/time_range',
         {
-          contract_address: '0xA0B86991C6218B36C1D19D4A2E9EB0CE3606EB48',
+          contract_address: '0xe3411d7ba6e99d4228e304ed1bbb4dff14813070',
           limit: 10000,
           after: 1,
           before: 1658766198820,
